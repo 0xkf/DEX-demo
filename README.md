@@ -1,3 +1,13 @@
+BNBchain
+
+USDC TOKEN
+https://bscscan.com/tx/0xed733d05dc189db867e64718907a371d0ed379c9a88a45f26241607a0abb9e2b
+
+JOE TOKEN
+https://bscscan.com/tx/0xc526bee2b8a7dded10fa6db4d587ca91a69e180ddf065470a16175fc8325b175
+
+
+
 # About This Project
 
 `Miniswap` is a amm dapp that allows tokens to be exchanged like `Uniswap`.
