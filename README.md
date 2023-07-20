@@ -1,4 +1,4 @@
-BNBchain
+BNBchain DEX
 
 USDC TOKEN
 https://bscscan.com/tx/0xed733d05dc189db867e64718907a371d0ed379c9a88a45f26241607a0abb9e2b
@@ -29,9 +29,6 @@ swap
 
 `Miniswap` is a amm dapp that allows tokens to be exchanged like `Uniswap`.
 
-App link (vercel): https://avax-amm.vercel.app/
-
-Tutorial document: https://github.com/unchain-dev/UNCHAIN-projects/tree/main/docs/AVAX-AMM/ja
 
 # Usage
 
@@ -40,50 +37,9 @@ Tutorial document: https://github.com/unchain-dev/UNCHAIN-projects/tree/main/doc
 Add the following network before:
 
 ```
-Network Name: Avalanche FUJI C-Chain
-New RPC URL: https://api.avax-test.network/ext/bc/C/rpc
-ChainID: 43113
-Symbol: AVAX
-Explorer: https://testnet.snowtrace.io/
+Network Name: BNB C-Chain
+Symbol: BNB
 ```
-
-![](/public/images/connect.gif)
-
-### Start from faucet
-
-Get the two tokens (fake USDC and fake JOE) from faucet.
-
-![](/public/images/faucet.gif)
-
-### Swap
-
-First, sign transaction that approve amm contract to move token.
-
-![](/public/images/swap1.gif)
-
-↓
-
-Sign transaction to call swap.
-
-![](/public/images/swap2.gif)
-
-### Provide
-
-First, sign two transactions that approve amm contract to move tokens.
-
-![](/public/images/provide1.gif)
-
-↓
-
-Sign transaction to call provide.
-
-![](/public/images/provide2.gif)
-
-### Withdraw
-
-Withdraw tokens equivalent to the share.
-
-![](/public/images/withdraw.gif)
 
 # Build & run
 
