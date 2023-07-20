@@ -1,10 +1,34 @@
+BNBchain DEX
+
+USDC TOKEN
+https://bscscan.com/tx/0xed733d05dc189db867e64718907a371d0ed379c9a88a45f26241607a0abb9e2b
+
+JOE TOKEN
+https://bscscan.com/tx/0xc526bee2b8a7dded10fa6db4d587ca91a69e180ddf065470a16175fc8325b175
+
+AMM .sol
+https://bscscan.com/tx/0xadcefcbfb09be3b44d1fd68aca6bc34888bd05462b66e7f3cab62af1a83da1bc
+
+
+
+Approve USDC
+https://bscscan.com/tx/0x67efa879125cf37ba71c54b103ee96cd43445e4b827c650e4bd61f1c3e628e27
+
+Approve JOE
+https://bscscan.com/tx/0xb375fe526b6e791001c71673bd6f0685b7765d3fd8823ef30ff3767a86ee39f5
+
+provide Liquidity
+https://bscscan.com/tx/0xf07eabe208d19aa5ec1d4e8f3982796f6d396f877e1e976dffa46e995c3b096c
+
+swap
+(approve)https://bscscan.com/tx/0xe6b1a2eccacbe9632b9537d360d9ff9f5cb1d2d946ec6555280e52f46cb304f6
+(swap)https://bscscan.com/tx/0xadb829574771802c476bcf09020d4d8be1a9c3fe3dcb30e7ba98d62c1d1fcbf8 
+
+
 # About This Project
 
 `Miniswap` is a amm dapp that allows tokens to be exchanged like `Uniswap`.
 
-App link (vercel): https://avax-amm.vercel.app/
-
-Tutorial document: https://github.com/unchain-dev/UNCHAIN-projects/tree/main/docs/AVAX-AMM/ja
 
 # Usage
 
@@ -13,50 +37,9 @@ Tutorial document: https://github.com/unchain-dev/UNCHAIN-projects/tree/main/doc
 Add the following network before:
 
 ```
-Network Name: Avalanche FUJI C-Chain
-New RPC URL: https://api.avax-test.network/ext/bc/C/rpc
-ChainID: 43113
-Symbol: AVAX
-Explorer: https://testnet.snowtrace.io/
+Network Name: BNB C-Chain
+Symbol: BNB
 ```
-
-![](/public/images/connect.gif)
-
-### Start from faucet
-
-Get the two tokens (fake USDC and fake JOE) from faucet.
-
-![](/public/images/faucet.gif)
-
-### Swap
-
-First, sign transaction that approve amm contract to move token.
-
-![](/public/images/swap1.gif)
-
-↓
-
-Sign transaction to call swap.
-
-![](/public/images/swap2.gif)
-
-### Provide
-
-First, sign two transactions that approve amm contract to move tokens.
-
-![](/public/images/provide1.gif)
-
-↓
-
-Sign transaction to call provide.
-
-![](/public/images/provide2.gif)
-
-### Withdraw
-
-Withdraw tokens equivalent to the share.
-
-![](/public/images/withdraw.gif)
 
 # Build & run
 
