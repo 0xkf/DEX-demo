@@ -59,3 +59,11 @@
   padding: 5px 10px 5px 10px;
   border-radius: 15px;
 }
+
+.advertisement {
+  margin: 20px 0;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
